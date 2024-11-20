@@ -4,7 +4,7 @@ def file_read_write():
         input_filename = input("Enter the filename to read from:").strip()
 
         #step 2: Try to open the file for reading
-        with open(input_filename, 'r') as infile:
+        with open('Mydata.txt', 'r') as infile:
 
             #step 3: Read file content
             content = infile.readlines()
